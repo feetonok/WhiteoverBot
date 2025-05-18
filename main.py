@@ -1871,7 +1871,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
 
 def main() -> None:
-    application = Application.builder().token("8160939325:AAEDIn4OcJE7ZgRGTDyZ7tiJ-YfJuDK9D-s").build()
+    application = Application.builder().token("ТУТ ДОЛЖЕН БЫТЬ ТОКЕН").build()
 
     asyncio.get_event_loop().run_until_complete(init_databases())
     asyncio.get_event_loop().run_until_complete(check_last_transaction())
