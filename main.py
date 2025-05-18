@@ -37,7 +37,8 @@ logger = logging.getLogger(__name__)
 
 # Конфигурация
 CONFIG = {
-    "GOOGLE_SHEETS_CREDENTIALS": "credentials.json", # Файла нет в репозитории, т.к. там пристусвует скретная информация
+    "GOOGLE_SHEETS_CREDENTIALS": "credentials.json",  # Файла нет в репозитории, т.к. там пристусвует скретная
+    # информация
     "CIVILIAN_SHEET_URL": "https://docs.google.com/spreadsheets/d/1_7xOrJWnV9Fzs8OhbrdUTkfuLfCd6uL8uJVf9837yjQ/edit",
     "BANK_SHEET_URL": "https://docs.google.com/spreadsheets/d/1sEsl_1GOOrqrq0tRNh1WrmzsoVH-8Lnl2GRGzzV2vo0/edit",
     "ROLES_SHEET_URL": "https://docs.google.com/spreadsheets/d/1mDlLMhev9irM1ZieFd5OPtBu5l3diD9pIqVeQdFTOWU/edit",
